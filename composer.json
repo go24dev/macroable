@@ -1,0 +1,58 @@
+{
+    "name": "nham24/macroable",
+    "description": "A set of useful Laravel macros",
+    "keywords": [
+        "nham24",
+        "macroable"
+    ],
+    "homepage": "https://github.com/go24dev/marcoable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sophy SEM",
+            "email": "sophy@go24.sg",
+            "homepage": "https://github.com/semsphy",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": ">=5.8"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.21",
+        "mockery/mockery": "^1.6.2",
+        "orchestra/testbench": "^8.5.9",
+        "pestphp/pest": "^2.0",
+        "phpunit/phpunit": "10.2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nham24\\Macroable\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nham24\\Macroable\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
+        "test": "vendor/bin/pest"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nham23\\Macroable\\MacroableServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
