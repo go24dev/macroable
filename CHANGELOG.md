@@ -2,6 +2,10 @@
 
 All notable changes to `nham24/macroable` will be documented in this file
 
+## 0.0.1 - 2023-07-14
+
+Init macroable package
+
 ## 0.0.3 - 2023-07-14
 
 Added CHANGELOG
