@@ -49,7 +49,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nham23\\Macroable\\MacroableServiceProvider"
+                "Nham24\\Macroable\\MacroableServiceProvider"
             ]
         }
     },
